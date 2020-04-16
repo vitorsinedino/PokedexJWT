@@ -31,9 +31,9 @@ h1, h2, h3{
 }
 
 #bg{
-    background: url('https://initiate.alphacoders.com/images/273/cropped-1366-768-273289.jpg?4677');
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/07dd72d1-284c-42e0-a15a-3b0f585c74d0/d5rkxr5-dcaaf199-7874-4e97-83a3-00e67ffb5122.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3ZGQ3MmQxLTI4NGMtNDJlMC1hMTVhLTNiMGY1ODVjNzRkMFwvZDVya3hyNS1kY2FhZjE5OS03ODc0LTRlOTctODNhMy0wMGU2N2ZmYjUxMjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._KSyEPcGy0wWMgIjfGS2UogbOxiNZQNpTZzgW8Ym2F0');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% 80%;
 }
 
 .card {
@@ -235,4 +235,16 @@ h1, h2, h3{
   box-shadow: 0px 13px 30px -15px #000000;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
+}
+
+@media screen and (max-width: 600px) {
+  .MuiFormControl-root{
+    width: 95%;
+  }
+
+  #bg{
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/07dd72d1-284c-42e0-a15a-3b0f585c74d0/d5rkxr5-dcaaf199-7874-4e97-83a3-00e67ffb5122.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3ZGQ3MmQxLTI4NGMtNDJlMC1hMTVhLTNiMGY1ODVjNzRkMFwvZDVya3hyNS1kY2FhZjE5OS03ODc0LTRlOTctODNhMy0wMGU2N2ZmYjUxMjIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._KSyEPcGy0wWMgIjfGS2UogbOxiNZQNpTZzgW8Ym2F0');
+    background-repeat: no-repeat;
+    background-size: 100% 130% ;
+  }
 }
